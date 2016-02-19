@@ -1,0 +1,18 @@
+// Sample program to show how unexported fields from an exported
+// struct type can't be accessed directly.
+package main
+
+import (
+    "fmt"
+    "entities"
+)
+
+// main is the entity point for the application.
+func main() {
+    // Create a value of type User from the entities package.
+    u := entities.User{
+        Name:  "Bill",
+        Email: "bill@email.com",
+    }
+    fmt.Println(u)
+}

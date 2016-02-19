@@ -1,0 +1,7 @@
+// user defines a user in the program.
+type user struct {
+    name       string
+    email      string
+    ext        int
+    privileged bool
+}

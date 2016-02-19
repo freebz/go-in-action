@@ -1,0 +1,1 @@
+ERROR: 2016/02/19 09:45:36 ex02.go:46: Something has failed

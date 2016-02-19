@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main(){
+
+    // Create a map with a eky of type string and a value of type int.
+    dict1 := make(map[string]int)
+
+    // Create a map with a key and value of type string.
+    dict2 := map[string]string{"Red": "#da1337", "Orange": "#e95a22"}
+    fmt.Println(dict1, dict2)
+}
